@@ -1,0 +1,42 @@
+.post {
+    flex: 1;
+    border-bottom: 2px solid #e8e8e8;
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.post-profile-image {
+    flex: 0;
+    width: 2rem;
+}
+
+.right-block {
+    flex: 1;
+}
+
+.post-image {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.right-bottom-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-time {
+    flex: 1;
+    color: #949494;
+}
+
+.upvotes {
+    flex: 0;
+    display: flex;
+    align-items: center;
+}
+
+.upvote-icon {
+    width: 1rem;
+}

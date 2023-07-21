@@ -1,7 +1,9 @@
 #TODO
 
-1. Notifications page
-2. Search page. 
-3. write post
-4. dark mode
-5. fetch 10 randomized posts per load -> fetch images from API when image is true
+1. Time since post. sort stream bases on time values.
+2. Notifications page
+2. Search page
+5. write post
+6. comment post
+6. dark mode
+

@@ -1,0 +1,7 @@
+.notifications {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 0rem 5rem 0rem;
+    text-align: center;
+}

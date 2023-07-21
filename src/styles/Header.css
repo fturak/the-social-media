@@ -1,13 +1,13 @@
 .header {
     position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     top: 0%;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: white;
 }
 
 .header-logo {
-    width: 3rem;
+    width: 1.5rem;
 }

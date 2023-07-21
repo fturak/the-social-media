@@ -1,7 +1,17 @@
 .nav-button {
-    width: 2rem;
+    width: 1.5rem;
+    opacity: 75%;
 }
 
 .nav-button-image {
     width: 100%;
+}
+
+.nav-button:hover {
+    scale: 1.05;
+    opacity: 20%;
+}
+
+.nav-button.active {
+    opacity: 100%;
 }

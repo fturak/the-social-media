@@ -7,9 +7,9 @@ import SearchIcon from "../assets/search-icon.png"
 export default function () {
     return (
         <div className="navbar">
-            <Navbutton image={SearchIcon}/>
-            <Navbutton image={HomeIcon}/>
-            <Navbutton image={NotificationIcon}/>
+            <Navbutton linkName="search" image={SearchIcon}/>
+            <Navbutton linkName="" image={HomeIcon}/>
+            <Navbutton linkName="notifications" image={NotificationIcon}/>
         </div>
     )
 }

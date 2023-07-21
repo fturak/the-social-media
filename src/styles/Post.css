@@ -10,6 +10,7 @@
 .post-profile-image {
     flex: 0;
     width: 2rem;
+    border-radius: 50%;
 }
 
 .right-block {
@@ -19,6 +20,7 @@
 .post-image {
     margin-top: 1rem;
     width: 100%;
+    max-width: 256px;
 }
 
 .right-bottom-block {
@@ -35,8 +37,13 @@
     flex: 0;
     display: flex;
     align-items: center;
+    gap: 0.25rem;
 }
 
 .upvote-icon {
     width: 1rem;
+}
+
+.upvote-icon:hover {
+    opacity: 10%;
 }
